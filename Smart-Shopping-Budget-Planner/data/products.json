@@ -1,0 +1,65 @@
+[
+  {
+    "id": "P101",
+    "name": "Headphones",
+    "price": 1500,
+    "priority": 5,
+    "utility": 90,
+    "deadline": "2026-11-20",
+    "store": "ElectroMart"
+  },
+  {
+    "id": "P102",
+    "name": "Running Shoes",
+    "price": 2000,
+    "priority": 4,
+    "utility": 85,
+    "deadline": "2026-11-22",
+    "store": "StyleHub"
+  },
+  {
+    "id": "P103",
+    "name": "Backpack",
+    "price": 1000,
+    "priority": 4,
+    "utility": 70,
+    "deadline": "2026-11-19",
+    "store": "StyleHub"
+  },
+  {
+    "id": "P104",
+    "name": "Smart Watch",
+    "price": 2500,
+    "priority": 3,
+    "utility": 80,
+    "deadline": "2026-11-25",
+    "store": "ElectroMart"
+  },
+  {
+    "id": "P105",
+    "name": "T-shirt",
+    "price": 700,
+    "priority": 2,
+    "utility": 50,
+    "deadline": "2026-11-18",
+    "store": "FashionPoint"
+  },
+  {
+    "id": "P106",
+    "name": "Water Bottle",
+    "price": 400,
+    "priority": 3,
+    "utility": 35,
+    "deadline": "2026-11-21",
+    "store": "MarketSquare"
+  },
+  {
+    "id": "P107",
+    "name": "Desk Lamp",
+    "price": 900,
+    "priority": 2,
+    "utility": 45,
+    "deadline": "2026-11-24",
+    "store": "MarketSquare"
+  }
+]
