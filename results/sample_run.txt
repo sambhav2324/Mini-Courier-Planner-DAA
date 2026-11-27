@@ -1,0 +1,36 @@
+
+==================================================================
+ MINI-COURIER PLANNER — REPORT
+==================================================================
+
+PARCEL PRIORITY (Merge Sort):
+ID       To       Priority Deadline Weight Value
+PK104    D        5        7        7      95
+PK101    A        5        9        8      80
+PK108    B        4        10       6      70
+PK102    B        4        12       6      65
+PK106    A        3        11       4      40
+PK103    C        3        15       9      75
+PK105    E        2        20       5      45
+PK107    C        1        25       10     35
+
+PACKING (0/1 Knapsack):
+Bag capacity=30 | Used=30 | Selected value=330
+  PK104 -> D (weight 7, value 95)
+  PK101 -> A (weight 8, value 80)
+  PK108 -> B (weight 6, value 70)
+  PK106 -> A (weight 4, value 40)
+  PK105 -> E (weight 5, value 45)
+
+ROUTE (Dijkstra + Nearest Neighbor):
+Stops: DEPOT -> A -> B -> D -> E -> DEPOT
+Road path: DEPOT -> A -> B -> D -> E -> D -> DEPOT
+Total distance: 21.0 units
+
+RUNTIME:
+  merge_sort               0.00001805 s
+  quick_sort               0.00001487 s
+  knapsack                 0.00008299 s
+  dijkstra_all_pairs       0.00008431 s
+  nearest_neighbor_route   0.00001052 s
+==================================================================

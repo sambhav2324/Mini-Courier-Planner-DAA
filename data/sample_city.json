@@ -1,0 +1,14 @@
+{
+  "depot":"DEPOT",
+  "graph":{"DEPOT":{"A":4,"B":7,"C":9,"D":6},"A":{"DEPOT":4,"B":3,"C":5,"D":8,"E":7},"B":{"DEPOT":7,"A":3,"C":2,"D":4,"E":6},"C":{"DEPOT":9,"A":5,"B":2,"D":3,"E":4},"D":{"DEPOT":6,"A":8,"B":4,"C":3,"E":2},"E":{"A":7,"B":6,"C":4,"D":2}},
+  "parcels":[
+    {"id":"PK101","destination":"A","priority":5,"deadline":9,"weight":8,"value":80},
+    {"id":"PK102","destination":"B","priority":4,"deadline":12,"weight":6,"value":65},
+    {"id":"PK103","destination":"C","priority":3,"deadline":15,"weight":9,"value":75},
+    {"id":"PK104","destination":"D","priority":5,"deadline":7,"weight":7,"value":95},
+    {"id":"PK105","destination":"E","priority":2,"deadline":20,"weight":5,"value":45},
+    {"id":"PK106","destination":"A","priority":3,"deadline":11,"weight":4,"value":40},
+    {"id":"PK107","destination":"C","priority":1,"deadline":25,"weight":10,"value":35},
+    {"id":"PK108","destination":"B","priority":4,"deadline":10,"weight":6,"value":70}
+  ]
+}
